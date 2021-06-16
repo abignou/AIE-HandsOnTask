@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AIE Task</string>
+    <string name="employeedetails">Employee Details</string>
+    <string name="employeeid">ID</string>
+    <string name="employeename">Name</string>
+    <string name="employeedoj">DOJ</string>
+    <string name="employeeage">Age</string>
+    <string name="employeemanager">Manager</string>
+    <string name="employeedepartment">Department</string>
+</resources>
