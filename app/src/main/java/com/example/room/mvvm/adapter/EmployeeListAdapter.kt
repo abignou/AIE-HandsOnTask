@@ -25,7 +25,12 @@ class EmployeeListAdapter(
         holder.lbl_name.text=empModel.emp_name
         holder.lbl_doj.text=empModel.joining_date
         holder.lbl_age.text=""+empModel.emp_age
-        holder.lbl_manager.text=""+empModel.manager_id
+        if(empModel.manager_name.isNullOrEmpty()){
+            holder.lbl_manager.text = "N/A"
+        }else{
+            holder.lbl_manager.text = empModel.manager_name
+        }
+
         holder.lbl_department.text=empModel.dept_name
 
     }
